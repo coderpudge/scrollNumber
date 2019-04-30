@@ -24,7 +24,7 @@ export default class NewClass extends cc.Component {
 
     start () {
         this.sn.rollSpeed = this.speed;
-        this.sn.setLabel(0, 50);
+        // this.sn.setLabel(0, 50);
     }
     updateLabel(){
         if (this.sn.isAutoRoll) {
